@@ -1,3 +1,127 @@
-a {
-    text-decoration: 'none';
+
+/*******************************
+GENERAL
+********************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
 }
+
+
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*******************************
+HEADing
+********************************/
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+}
+
+/*******************************
+HEADING
+********************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+/*******************************
+FOOTER
+********************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+/*******************************
+COLOR
+********************************/
+body {
+    background-color: #fff;
+    color: #999;
+
+}
+
+/* green header */
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 1.75em;
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h2 {
+
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+/* This will select multiple elements to give them same style */
+h1, h2 {
+    color: #fff;
+}
+
+/* links */
+a{
+    color: #6ab47b;
+}
+
+/* nav background on mobile */
+nav {
+    background: #599a68;;
+}
+/* selected nav link */
+nav a, nav a:visited {
+    color: #fff;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

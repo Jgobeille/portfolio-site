@@ -6,6 +6,7 @@ GENERAL
 body {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
+    font-weight: 800;
 }
 
 
@@ -27,7 +28,7 @@ img {
 
 
 /*******************************
-HEADing
+HEADING
 ********************************/
 
 #logo {
@@ -67,6 +68,13 @@ PAGE PORTFOLIO
     color: #bdc3c7;
 }
 
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+    color: hsl(0, 0%, 57%);
+}
+
 
 
 /*******************************
@@ -76,6 +84,8 @@ FOOTER
 footer {
     font-size: 0.75em;
     text-align: center;
+    /* The clear property specifies whether an element can be adjacent to floated elements or if it should be moved down and "clear" any floated elements. */
+    clear: both;
     padding-top: 50px;
     color: #ccc;
 }

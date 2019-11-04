@@ -218,7 +218,7 @@ a{
 
 /* nav background on mobile */
 nav {
-    background: #599a68;;
+    background: #037e95;
 }
 /* selected nav link */
 nav a, nav a:visited {
@@ -226,7 +226,11 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-    color: #B2D4E1;
+    color: #ffc535;
+}
+
+ a:hover {
+    color: #ffc535;
 }
 
 

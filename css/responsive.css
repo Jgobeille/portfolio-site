@@ -34,7 +34,7 @@
     
     .profile-photo {
       float: left;
-      margin: 0 5% 100% 0;
+      margin: 0 5% 55% 0;
     }
     
   }
@@ -71,7 +71,7 @@
     }
     
     header {
-      border-bottom: 5px solid #599a68;
+      border-bottom: 5px solid #ffc535;
       margin-bottom: 60px;
     }
   

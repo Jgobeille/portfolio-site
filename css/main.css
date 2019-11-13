@@ -85,10 +85,12 @@ PAGE PORTFOLIO
     margin: 0;
     list-style: none;
     padding-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #gallery li {
-    float: left;
+
     width: 45%;
     background-color: #b2d4e1;
     color: #b2d4e1;

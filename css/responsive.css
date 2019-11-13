@@ -27,6 +27,10 @@
     margin: 0 auto;
   }
 
+  #gallery li {
+    flex: 1 40%;
+  }
+
 
 
 
@@ -35,13 +39,6 @@
     PAGE: PORTFOLIO
     ***********************************/
 
-  #gallery li {
-    width: 28.3333%;
-  }
-
-  #gallery li:nth-child(4n) {
-    clear: left;
-  }
 
   /**********************************
     PAGE: ABOUT
@@ -80,6 +77,10 @@
 
   }
 
+  #gallery li {
+    flex: 1 23%;
+  }
+
   h1 {
     font-size: 2.5em;
   }
@@ -99,6 +100,12 @@
 
 @media screen and (max-width: 891px) {
   nav {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #gallery li {
     flex-grow: 1;
   }
 }

@@ -84,7 +84,7 @@ PAGE PORTFOLIO
 #gallery {
     margin: 0;
     list-style: none;
-    padding-top: 20vh;
+
     display: flex;
     flex-wrap: wrap;
 }

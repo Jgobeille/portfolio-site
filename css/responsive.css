@@ -1,83 +1,104 @@
 @media screen and (min-width: 480px) {
-  
-    /**********************************
+
+  /**********************************
     TWO COLUMN LAYOUT
     ***********************************/
-    
-    #primary {
-      width: 50%;
-      float: left;
-    }
-    
-    #secondary {
-      width: 40%;
-      float: right;
-    }
-    
-  
-    
-    /**********************************
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  header {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #logo {
+    margin: 0 auto;
+  }
+
+
+
+
+
+  /**********************************
     PAGE: PORTFOLIO
     ***********************************/
-    
-    #gallery li {
-      width: 28.3333%;
-    }
-    
-    #gallery li:nth-child(4n) {
-      clear: left;
-    }
-    
-    /**********************************
+
+  #gallery li {
+    width: 28.3333%;
+  }
+
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+
+  /**********************************
     PAGE: ABOUT
     ***********************************/
-    
-    .profile-photo {
-      float: left;
-      margin: 0 5% 55% 0;
-    }
-    
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 55% 0;
   }
-  
-  @media screen and (min-width: 660px) {
-  
-    /**********************************
+
+}
+
+@media screen and (min-width: 892px) {
+
+  /**********************************
     HEADER
     ***********************************/
-  
-    nav {
-      background: none;
-      float: right;
-      font-size: 1.125em;
-      margin-right: 5%;
-      text-align: right;
-      width: 45%;
-    }
-    
-    #logo {
-      float: left;
-      margin-left: 5%;
-      text-align: left;
-      width: 45%;
-    }
-    
-    h1 {
-      font-size: 2.5em;
-    }
-    
-    h2 {
-      font-size: 0.825em;
-      margin-bottom: 20px;
-    }
-    
-    header {
-      border-bottom: 5px solid #ffc535;
-      margin-bottom: 60px;
-    }
-  
-    
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
-  
-  
-  
-  
+
+
+
+  nav {
+    background: none;
+    margin-right: 5%;
+    font-size: 1.125em;
+  }
+
+  #logo {
+    margin-left: 5%;
+    text-align: left;
+
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #ffc535;
+    margin-bottom: 60px;
+  }
+
+
+}
+
+@media screen and (max-width: 891px) {
+  nav {
+    flex-grow: 1;
+  }
+}

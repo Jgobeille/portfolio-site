@@ -31,8 +31,8 @@
     flex: 1 40%;
   }
 
-  #gallery {
-    margin-top: 15vh;
+  #section {
+    margin-top: 20vh;
   }
 
 
@@ -49,8 +49,7 @@
     ***********************************/
 
   .profile-photo {
-    float: left;
-    margin: 0 5% 55% 0;
+    margin: 0 5%;
   }
 
 }
@@ -100,16 +99,51 @@
   }
 
 
+  /* About Page sectioning */
+
+  section {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 25vh;
+  }
+
+  .profile-photo {
+    flex: 1;
+  }
+
+  .group {
+
+    flex: 2;
+
+  }
+
+  .group-2 {
+    flex-grow: 1;
+  }
+
+
+
 }
 
 @media screen and (max-width: 891px) {
   nav {
     flex-grow: 1;
   }
+
+  .profile-photo {
+    margin: 0 auto;
+    margin-top: 25vh;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 620px) {
   #gallery li {
     flex-grow: 1;
+    flex: 1 500px;
   }
+
+
 }

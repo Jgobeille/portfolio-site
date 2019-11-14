@@ -31,8 +31,16 @@
     flex: 1 40%;
   }
 
-  #section {
-    margin-top: 20vh;
+  section {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 25vh;
+  }
+
+  .contact {
+
+    display: flex;
+    margin-top: 25vh;
   }
 
 
@@ -101,11 +109,7 @@
 
   /* About Page sectioning */
 
-  section {
-    flex-wrap: wrap;
-    display: flex;
-    margin-top: 25vh;
-  }
+
 
   .profile-photo {
     flex: 1;
@@ -122,6 +126,16 @@
   }
 
 
+  /* Contact Page */
+  .col-1 {
+    flex: 1 60%;
+  }
+
+  .col-2 {
+    flex: 1 40%;
+  }
+
+
 
 }
 
@@ -132,7 +146,7 @@
 
   .profile-photo {
     margin: 0 auto;
-    margin-top: 25vh;
+
     margin-bottom: 5%;
     width: 100%;
   }

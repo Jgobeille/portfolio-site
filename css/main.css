@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-weight: 800;
+
 }
 
 
@@ -15,7 +16,11 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
+    min-height: calc(100vh - 300px);
 }
+
+
+
 
 a {
     text-decoration: none;
@@ -116,7 +121,6 @@ footer {
     text-align: center;
     /* The clear property specifies whether an element can be adjacent to floated elements or if it should be moved down and "clear" any floated elements. */
     clear: both;
-    padding-top: 50px;
     color: #ccc;
 }
 
